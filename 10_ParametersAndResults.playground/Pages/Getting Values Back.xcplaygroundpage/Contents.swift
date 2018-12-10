@@ -25,10 +25,15 @@ spaceAvailableMessage(eachVideoDuration: 10, numberOfVideos: 50)
 //: The value that a function returns is just like any other. It can be assigned to a variable or a constant and can be used for other work. Variables and constants can also be used as the arguments:
 let desiredVideoDuration = 40
 let holidayVideoCount = 100
-let videoMessage = spaceAvailableMessage(eachVideoDuration: desiredVideoDuration, numberOfVideos: holidayVideoCount)
-let namedVideoMessage = "Hey Micah! \(videoMessage)"
+var videoMessage = spaceAvailableMessage(eachVideoDuration: desiredVideoDuration, numberOfVideos: holidayVideoCount)
+let namedVideoMessage = "Hey Bob! \(videoMessage)"
 
+func holidaySpaceAvailable(eachVideoDuration: Int, holidayVideoCount: Int) -> String {
+    videoMessage = spaceAvailableMessage(eachVideoDuration: eachVideoDuration, numberOfVideos: holidayVideoCount)
+    return (namedVideoMessage)
+}
 
+holidaySpaceAvailable(eachVideoDuration: 50, holidayVideoCount: 200)
 //: Try making your own function that returns a value.
 //:
 //: [Previous](@previous)  |  page 6 of 17  |  [Next: Giving Values Back](@next)
