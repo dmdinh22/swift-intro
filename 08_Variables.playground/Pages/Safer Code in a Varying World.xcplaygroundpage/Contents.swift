@@ -22,7 +22,6 @@ friendBeverageChoice = "plain water"
 
 findCoffeeBeans()
 driveHome()
-setUpCoffeeGrinder()
 
 friendBeverageChoice = "nothing 😴"
 

@@ -20,8 +20,16 @@
  \
  After each round, `print` some statements that your opponents might make. If you can, use the value of your current score in their statements.
  */
-
-
+var overallScore = 501
+var roundScore = 0
+roundScore += 20
+overallScore - roundScore
+roundScore += 10
+overallScore - roundScore
+roundScore += 50
+overallScore - roundScore
+roundScore += 25
+overallScore - roundScore
 
 /*:
  
