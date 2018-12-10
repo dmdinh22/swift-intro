@@ -7,9 +7,16 @@
 */
 
 
+func rickRolled() {
+    print("Never gonna give you up")
+    print("Never gonna let you down")
+    print("Never gonna run around and desert you")
+    print("Never gonna make you cry")
+    print("Never gonna say goodbye")
+    print("Never gonna tell a lie and hurt you")
+}
 
-
-
+rickRolled()
 
 
 

@@ -8,8 +8,8 @@
  The other functions are declared below:
 */
 func rowTheBoat() {
-    print("Row, row, row your boat")
-    print("Gently down the stream")
+    print("Row, row, row your gears")
+    print("Swiftly around the track")
 }
 
 func verseOne() {
