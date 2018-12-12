@@ -4,11 +4,11 @@ struct QuestionAnswerer {
         let lowerQuestion = question.lowercased()
         
         if lowerQuestion.hasPrefix("hello") {
-            return "Why, hello there!"
+            return "Hello World!"
         } else if lowerQuestion == "where are the cookies?" {
-            return "In the cookie jar!"
+            return "Cookie Monster ate them all!"
         } else if lowerQuestion.hasPrefix("where") {
-            return "To the North!"
+            return "To the Windows, to the wall!"
         } else {
             let defaultNumber = question.count % 3
             
