@@ -9,14 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var redSwitch: UISwitch!
+    @IBOutlet weak var greenSwitch: UISwitch!
+    @IBOutlet weak var blueSwitch: UISwitch!
+    @IBOutlet weak var colorView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         colorView.backgroundColor = .black
     }
 
-    @IBOutlet weak var colorView: UIView!
     @IBAction func switchChanged(_ sender: UISwitch) {
         if sender.isOn {
             colorView.backgroundColor = .red
